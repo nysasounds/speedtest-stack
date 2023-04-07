@@ -9,7 +9,7 @@ volumes:
 
 services:
   speedtest:
-    image: nysasounds/speedtest-prometheus-exporter:0.0.1
+    image: nysasounds/speedtest-prometheus-exporter:0.0.2
     container_name: speedtest
     restart: unless-stopped
     expose:
